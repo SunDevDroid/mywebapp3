@@ -368,7 +368,7 @@
   // TODO add service worker code here
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('https://sundevdroid.github.io/mywebapp3/service-worker.js')
+             .register('/mywebapp3/service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
 })();
